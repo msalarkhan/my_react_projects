@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background: wheat;
+    height: max-content;
+    
+}
+.main{
+    border: 2px white solid;
+    padding: 5px;
+    display: flex;
+
+}
+.title{
+    color: rgb(243, 19, 108);
+    background-color: transparent;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    color: rgb(255, 4, 79);
+     background-color: transparent;
+     width: 150px;
+     height: 150px;
+ }
+ @media only screen and (max-width: 600px) {
+    logo {
+        width: 100px;
+     height: 100px;
+    }
+  }
+.add-btn{
+    height: 40px;
+    width: 100px;
+    background: rgb(243, 19, 108);
+    color: white;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 7px;
+}
+.add-btn1{
+    height: 40px;
+    width: 100px;
+    background: darkblue;
+    color: white;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 7px;
+}
+.addques{
+    height: 40px;
+    width: 100px;
+    background: #000;
+    color: white;
+    align-items: center;
+    margin-left:10px;
+    margin-top: 7px;
+}
+
+.ques{
+    border: rgb(255, 255, 255) solid 2px;
+    margin-top: 5px;
+    margin-left: 500px;
+    height: 30px;
+    width: 500px;
+    padding: 4px;
+}
+.ques:hover{
+    border: rgb(243, 19, 108) 2px solid  ;
+}
+@media only screen and (max-width: 600px) {
+    .ques{
+        width: 100px;
+     height: 100px;
+    }
+  }
+.ans{
+    border: rgb(31, 210, 19) solid 2px;
+    margin-top: 10px;
+    margin-left: 500px;
+    height: 30px;
+    width: 400px;
+    padding: 4px;
+}
+.ans:hover{
+    border: greenyellow 2px solid;
+
+}
+.cross{
+    font-size: 19px;
+    padding: 2px;
+    align-items: center;
+    margin: 2px;
+    border: 1px white solid;
+    color: black;
+
+}
+.cross:hover{
+    background-color: darkblue;
+    color: white;
+}
+.cross-ques{
+    font-size: 19px;
+    padding: 2px;
+    align-items: center;
+    margin: 2px;
+    border: 1px white solid;
+    color: black;
+
+}
+.cross-ques:hover{
+    background-color: rgb(243, 19, 108);
+    color: white;
+}
+.question{
+    border: #000 solid 2px;
+    margin-top: 5px;
+    margin-left: 500px;
+    height: 30px;
+    width: 500px;
+}
+.your-ques{
+    margin-top: 5px;
+    margin-left: 500px;
+    color: white;
+}
+.submit{
+    height: 40px;
+    width: 100px;
+    background: rgb(12, 213, 72);
+    color: white;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.submit:hover{
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+.top-header-menu{
+    width : 100%;
+    height: 100px;
+    background-color: goldenrod;
+}
+.top-header-menu img{
+    height: 100px;
+    width: 200px;
+}
+.footer{
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 500px;
+    background-color:rgb(253, 215, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    
+
+}
