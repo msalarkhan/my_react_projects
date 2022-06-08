@@ -13,7 +13,7 @@ export default class
     return (
       <>  
     <img src='M-SALAR.LLC.png' alt='logo not found' className='logo'/>
-    <h1 className='title'>Quiz App </h1>
+    <h1 className='title'>Quiz Application </h1>
      <div  className='main'>
     <div class="form-group">
       <Test/> 
